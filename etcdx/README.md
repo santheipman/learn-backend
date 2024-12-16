@@ -60,7 +60,11 @@
 
 - how people imple database in Go?: https://dgraph.io/blog/post/badger/
 
-- gprc server
+- apis:
+  - http routes: easy for demo
+  - grpc:  require initial time to set up. but then we have chance to work with grpc and can use etcd client to test our server. -> more work and would be fun :) -> choose.
+    - ~~let's try to copy the proto msg from the web to create the server then use the cli to see if it work? maybe the option version don't let us use it ->~~ we might need to use our own client and api to
+      have time do the phase 2, phase 3.
 - client
 
 ### phase 2
