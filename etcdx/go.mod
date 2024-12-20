@@ -1,6 +1,6 @@
 module etcdx
 
-go 1.22.4
+go 1.23.1
 
 require (
 	github.com/labstack/echo/v4 v4.13.2 // indirect

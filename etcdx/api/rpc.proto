@@ -1,7 +1,7 @@
 syntax = "proto3";
 package apipb;
 
-option go_package = "etcdx/api/v1/rpcpb";
+option go_package = "api/pb";
 
 message KeyValue {
   bytes key = 1;
@@ -54,3 +54,4 @@ message ResponseHeader {
 //  int64 revision = 3;
   uint64 raft_term = 4;
 }
+
